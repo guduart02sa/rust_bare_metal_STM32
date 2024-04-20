@@ -1,0 +1,5 @@
+# Makefile.toml
+
+[scripts]
+check = "cargo clippy && cargo fmt"
+build = "cargo build"
