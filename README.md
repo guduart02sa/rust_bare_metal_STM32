@@ -29,4 +29,4 @@ The bare metal STM32 application is built using several libraries that facilitat
 - **Embassy Framework**: This project also integrates the `Embassy` asynchronous embedded framework for Rust. Embassy provides non-blocking, cooperative multitasking capabilities which are crucial for real-time embedded systems. The project leverages Embassy’s abstractions for handling asynchronous tasks such as UART communication and LED matrix updates without the need for a real-time operating system (RTOS).
 
 Overall, this project demonstrates the capabilities of Rust in bare metal programming, leveraging its safety and concurrency features while maintaining low-level control necessary for embedded systems. 
-It is even more interesting to compare with the same application seen in : [Link text](github.com/guduart02sa/bare_metal_STM32), which applies in C.
+It is even more interesting to compare with the same application seen in : [GitHub Repository: Bare Metal STM32](https://github.com/guduart02sa/bare_metal_STM32), which applies all the same using C.
